@@ -21,7 +21,7 @@ export default function Navbar() {
   }
 
   return (
-        <nav className='fixed w-full h-auto z-100 flex justify-between items-center py-5 px-10 shadow-xl font-secondary text-lg font-semibold text-darkNight '>
+        <nav className='fixed top-0 right-0 w-full h-32 z-100 bg-white flex justify-between items-center py-5 px-10 shadow-xl font-secondary text-lg font-semibold text-darkNight '>
             
             <div className='hidden md:block basis-5/12'>
                 <ul className='flex justify-evenly'>
@@ -47,7 +47,7 @@ export default function Navbar() {
                 {
                     links.map((link) => (
                     <li className='my-7 font-semibold'>
-                        <a href={link.link} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</a>
+                        <a href={link.link} onClick={handleMenu} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</a>
                     </li>))
                 }
             </ul>
