@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const QuienesSomos = () => {
+const WhoAreWe = () => {
   return (
     <section class="text-gray-600 font-primary px-10 md:px-32 py-24 ">
       <div class="mx-auto flex flex-wrap">
@@ -36,4 +36,4 @@ const QuienesSomos = () => {
   )
 }
 
-export default QuienesSomos
+export default WhoAreWe

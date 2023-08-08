@@ -3,7 +3,7 @@
 import Navbar from './components/Navbar'
 import Carousel from './components/Carousel'
 import WhatsappButton from './components/WhatsappButton'
-import QuienesSomos from './components/quienesSomos'
+import WhoAreWe from './components/WhoAreWe'
 import Footer from './components/Footer'
 
 
@@ -12,7 +12,7 @@ function App() {
     <div className='relative'>
       <Navbar />
       <Carousel />
-      <QuienesSomos />
+      <WhoAreWe />
       <Footer/>
       <WhatsappButton />
     </div>
