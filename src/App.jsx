@@ -1,21 +1,23 @@
 
 // Components
 import Navbar from './components/Navbar'
-import Carousel from './components/Carousel'
-import WhatsappButton from './components/WhatsappButton'
+import SlidesCarousel from './components/SlidesCarousel'
+import Products from './components/Products'
 import WhoAreWe from './components/WhoAreWe'
 import Footer from './components/Footer'
+import WhatsappButton from './components/WhatsappButton'
 
 
 function App() {
   return (
-    <div className='relative'>
-      <Navbar />
-      <Carousel />
-      <WhoAreWe />
-      <Footer/>
-      <WhatsappButton />
-    </div>
+    <>
+    <Navbar />
+    <SlidesCarousel />
+    <Products />
+    <WhoAreWe />
+    <Footer/>
+    <WhatsappButton />
+    </>
   )
 }
 
