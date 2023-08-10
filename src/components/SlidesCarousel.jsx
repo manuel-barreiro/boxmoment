@@ -9,6 +9,10 @@ const customTheme = {
       "base": "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth",
       "snap": "snap-x"
     },
+    item: {
+      "base": "absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2",
+      "wrapper": "w-full flex-shrink-0 transform snap-center"
+    },
   },
 };
 
