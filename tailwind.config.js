@@ -9,9 +9,8 @@ export default {
   ],
   theme: {
     extend: {
-
       fontFamily: {
-        primary: "reigoBlack",
+        primary: "Reigo",
         secondary: "Manrope",
       },
 
@@ -25,3 +24,4 @@ export default {
     plugins: [require('flowbite/plugin')],
   }
 }
+
