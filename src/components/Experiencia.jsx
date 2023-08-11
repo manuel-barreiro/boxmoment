@@ -13,7 +13,8 @@ const Experiencia = () => {
 
   return (
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-        <section className="h-auto py-20 w-full bg-[url('/images/backgrounds/quienesSomos.svg')] bg-opacity-25 bg-center bg-cover font-primary">
+        <section className="h-[130vh] md:h-[100vh] py-20 w-full bg-[url('/images/backgrounds/experiencia.svg')] bg-opacity-25 bg-center bg-cover font-primary">
+
             <div className="w-full h-full container px-8 md:px-32 mx-auto">
 
                 <div className="w-full h-full flex flex-col md:flex-row justify-center items-center gap-14 ">
@@ -21,7 +22,7 @@ const Experiencia = () => {
                     <div className="flex flex-col w-full md:w-[50%]">
 
                         <div className="p-6 relative rounded shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] w-[60%] self-start -mb-5 bg-gradient-to-tr from-slate-50 to-gray-100 hover:scale-105 ease-in-out duration-300">
-                            <BsBoxFill size={40} className='absolute -top-5 -right-5 text-[#c281ff]' />
+                            <BsBoxFill size={40} className='absolute -top-5 -left-6 text-[#c281ff]' />
                             <h2 className='font-bold text-5xl'>
                                 {counterOn &&
                                     <CountUp start={0} end={4000} separator='.' duration={4} delay={0}/>
