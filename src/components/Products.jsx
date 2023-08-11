@@ -1,21 +1,24 @@
 import { TbChristmasTree } from "react-icons/tb";
+import { Accordion } from 'flowbite-react';
 
 
 const Products = () => {
   return (
   <section className="w-full h-auto bg-[url('/images/backgrounds/productsMobile.svg')] md:bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover flex justify-center items-center py-20 px-10">
     <div className="flex flex-col justify-evenly gap-10 items-center">
-      <h1 className="text-white text-4xl font-primary self-start underline decoration-2 decoration-wavy underline-offset-8 font-extrabold">Nuestros productos</h1>
+      <h1 className="text-white text-4xl font-primary self-start underline decoration-4 decoration-wavy underline-offset-8 font-extrabold">Nuestros productos</h1>
 
-      <div className="flex justify-evenly gap-4 flex-wrap">
+      <div className="flex justify-evenly gap-10 flex-wrap">
 
-        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300">
+        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
           <div className="bg-xmasRed w-28 p-1 rounded-full text-center absolute top-4 left-0">
-            <p className="text-white font-extrabold">Box Roja</p>
+            <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
           </div>
 
-          <img src="/images/productos/cajaRojaNueva.png" className="w-72 mt-10 mb-4" alt="Caja Roja" />
+          <img src="/images/productos/cajaRojaNueva.png" className="w-72 mt-10 mb-2" alt="Caja Roja" />
+
+          <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h1>
 
           <ul className="font-secondary font-semibold text-xs">
             <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Sidra 720cc - Del Valle</p></li>
@@ -31,13 +34,15 @@ const Products = () => {
 
         </div>
 
-        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300">
+        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
           <div className="bg-pineGreen w-28 p-1 rounded-full text-center absolute top-4 left-0">
-            <p className="text-white font-extrabold">Box Verde</p>
+            <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
           </div>
 
-          <img src="/images/productos/cajaVerdeNueva.png" className="w-72 mt-10 mb-4" alt="Caja Roja" />
+          <img src="/images/productos/cajaVerdeNueva.png" className="w-72 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" alt="Caja Roja" />
+
+          <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">9 productos</h1>
 
           <ul className="font-secondary font-semibold text-xs">
             <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Sidra 720cc -<span className="font-extrabold">Del Valle</span></p></li>
@@ -54,24 +59,24 @@ const Products = () => {
 
         </div>
         
-        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300">
+        <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
           <div className="bg-[#ffc51a] w-44 p-1 rounded-full text-center absolute top-4 left-0">
-            <p className="text-white font-extrabold">Box Personalizada</p>
+            <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>
           </div>
 
-          <img src="/images/productos/cajaRojaNueva.png" className="w-72 mt-10 mb-4" alt="Caja Roja" />
+          <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" alt="Caja Roja" />
+
+          <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">Armala como más te guste</h1>
 
           <ul className="font-secondary font-semibold text-xs">
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Sidra 720cc - Del Valle</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Pan Dulce c/frutas 400gr - Valenciano</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Budín Marmolado 170gr – Valenciano</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Budín de Vainilla c/chips 170gr –Valenciano</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Turrón de Maní c/miel 80gr – Lheritier</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Postre de Maní 75gr – Lheritier</p></li>
-            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Garrapiñada 80gr – Lheritier</p></li>
-           <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a]"/> Confites de Chocolate 40gr – Flowpack Chocolart</p></li>
+            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>
+            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a] w-6"/>Clickeá sobre el botón debajo para conocer las distintas opciones.</p></li>
           </ul>
+
+          <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button>
+
+            
 
 
         </div>
