@@ -22,8 +22,11 @@ const SlidesCarousel = () => {
         <div className="flex h-full items-center justify-center bg-pineGreen">
           <img src="/images/slides/slide2.png" className='object-fill' alt="" />
         </div>
+        <div className="flex h-full items-center justify-center bg-pineGreen">
+          <img src="/images/slides/slide3.png" className='object-fill' alt="" />
+        </div>
       </Carousel>
-      </Flowbite>
+    </Flowbite>
   )
 }
 
