@@ -6,6 +6,7 @@ import Products from './components/Products'
 import WhoAreWe from './components/WhoAreWe'
 import Clients from './components/Clients'
 import Experiencia from './components/Experiencia'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsappButton from './components/WhatsappButton'
 
@@ -19,6 +20,7 @@ function App() {
     <WhoAreWe />
     <Clients />
     <Experiencia />
+    <Contact/>
     <Footer/>
     <WhatsappButton />
     </>

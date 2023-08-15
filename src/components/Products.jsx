@@ -4,7 +4,7 @@ import { Accordion } from 'flowbite-react';
 
 const Products = () => {
   return (
-  <section className="w-full h-auto bg-[url('/images/backgrounds/productsMobile.svg')] md:bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover flex justify-center items-center py-20 md:py-28 px-10">
+  <section name='productos' className="w-full h-auto bg-[url('/images/backgrounds/productsMobile.svg')] md:bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover flex justify-center items-center py-20 md:py-28 px-10">
     <div className="flex flex-col justify-evenly gap-10 items-center">
       <h1 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary self-start font-bold">Nuestros productos</h1>
 

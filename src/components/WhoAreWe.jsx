@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhoAreWe = () => {
   return (
-    <section className="w-full h-full bg-[url('/images/backgrounds/quienesSomos.svg')] bg-center bg-cover py-20 md:py-28 px-8 md:px-32  font-primary">
+    <section name='quienesSomos' className="w-full h-full bg-[url('/images/backgrounds/quienesSomos.svg')] bg-center bg-cover py-20 md:py-28 px-8 md:px-32  font-primary">
 
     <div className="flex flex-col xl:flex-row justify-evenly items-center gap-4">
         <div className="xl:basis-1/2 h-auto xl:h-80 flex flex-col gap-5 items-start bg-darkNight shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] p-6 rounded-xl">

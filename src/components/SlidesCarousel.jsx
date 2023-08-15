@@ -15,7 +15,7 @@ const customTheme = {
 const SlidesCarousel = () => {
   return (
     <Flowbite theme={{ theme: customTheme }}>
-      <Carousel slideInterval={5000} className='h-[20vh] md:h-[60vh] lg:h-[80vh] mt-32'>
+      <Carousel name='home' slideInterval={5000} className='h-[20vh] md:h-[60vh] lg:h-[80vh] mt-32'>
         <div className="flex h-full items-center justify-center bg-pineGreen">
           <img src="/images/slides/slide1.png" className='object-fill' alt="" />
         </div>
