@@ -3,44 +3,64 @@ import { FaWhatsapp, FaRegEnvelope, FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section name='contacto' class="text-gray-600 body-font flex flex-col items-center pt-20 font-primary">
-      <h2 className="font-primary text-5xl font-black text-black">Contactanos.</h2>
+    <section name="contacto" className="text-gray-600 font-primary">
+      <div className="container px-6 md:px-20 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-14">
+          <h1 className="sm:text-5xl text-3xl font-medium text-darkNight">Contactanos</h1>
+          <h2 className="text-xs tracking-widest font-medium title-font mt-2 text-pineGreen">TU CONSULTA NO MOLESTA</h2>
+        </div>
 
+        <div className="flex flex-wrap -m-4">
 
-      <div class="container px-5 py-24 mx-auto">
-       
-        <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-            <FaWhatsapp size={60} />
+          <div className="p-4 w-full xl:w-1/3">
+            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div className="flex items-center mb-3">
+                <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
+                  <FaWhatsapp size={60} />
+                </div>
+                <h2 className="text-gray-900 text-lg title-font font-medium">Whatsapp</h2>
+              </div>
+              <div className="flex-grow">
+                <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">11 6280 1006</p>
+                <p>Contactanos a nuestro Whatsapp y un asesor responderá tu consulta a la brevedad.</p>
+              </div>
+            </div>
           </div>
-          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Whatsapp</h2>
-            <p class="leading-relaxed text-base">+54 9 11 6280-1006</p>
-            
+
+          <div className="p-4 w-full xl:w-1/3">
+            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div className="flex items-center mb-3">
+                <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
+                  <FaRegEnvelope size={60} />
+                </div>
+                <h2 className="text-gray-900 text-lg title-font font-medium">Correo electrónico</h2>
+              </div>
+              <div className="flex-grow">
+                <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">contacto@boxmoment.com.ar</p>
+                <p>Escribinos vie e-mail y responderemos tu consulta.</p>
+              </div>
+            </div>
           </div>
+
+          <div className="p-4 w-full xl:w-1/3">
+            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div className="flex items-center mb-3">
+                <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
+                  <FaPhone size={60} />
+                </div>
+                <h2 className="text-gray-900 text-lg title-font font-medium">Teléfono</h2>
+              </div>
+              <div className="flex-grow">
+                <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">11 6280 1006</p>
+                <p>Comunicate con nosotros al número en pantalla.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Teléfono</h2>
-            <p class="leading-relaxed text-base">+54 9 11 6280-1006</p>
-            
-          </div>
-          <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-            <FaPhone size={60} />
-          </div>
-        </div>
-        <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-            <FaRegEnvelope size={60} />
-          </div>
-          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Correo Electrónico</h2>
-            <p class="leading-relaxed text-base">contacto@boxmoment.com.ar</p>
-            
-          </div>
-        </div>
+
       </div>
-    </section>  
+</section> 
   )
 }
 

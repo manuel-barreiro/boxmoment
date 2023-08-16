@@ -3,8 +3,8 @@
 import Navbar from './components/Navbar'
 import SlidesCarousel from './components/SlidesCarousel'
 import Products from './components/Products'
+import Services from './components/Services'
 import WhoAreWe from './components/WhoAreWe'
-import Clients from './components/Clients'
 import Experiencia from './components/Experiencia'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -17,8 +17,8 @@ function App() {
     <Navbar />
     <SlidesCarousel />
     <Products />
+    <Services />
     <WhoAreWe />
-    <Clients />
     <Experiencia />
     <Contact/>
     <Footer/>
