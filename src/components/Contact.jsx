@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container px-6 md:px-20 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-14">
           <h1 className="sm:text-5xl text-3xl font-medium text-darkNight">Contactanos</h1>
-          <h2 className="text-xs tracking-widest font-medium title-font mt-2 text-pineGreen">TU CONSULTA NO MOLESTA</h2>
+          <h2 className="text-xs tracking-widest font-medium title-font mt-2 text-pineGreen">TU CONSULTA NO MOLESTA :)</h2>
         </div>
 
         <div className="flex flex-wrap -m-4">
@@ -22,7 +22,7 @@ const Contact = () => {
               </div>
               <div className="flex-grow">
                 <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">11 6280 1006</p>
-                <p>Contactanos a nuestro Whatsapp y un asesor responderá tu consulta a la brevedad.</p>
+                <p className='font-secondary mt-4'>Contactanos a nuestro Whatsapp y un asesor responderá tu consulta a la brevedad.</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               <div className="flex-grow">
                 <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">contacto@boxmoment.com.ar</p>
-                <p>Escribinos vie e-mail y responderemos tu consulta.</p>
+                <p className='font-secondary mt-4'>Escribinos vie e-mail y responderemos tu consulta.</p>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
               <div className="flex-grow">
                 <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">11 6280 1006</p>
-                <p>Comunicate con nosotros al número en pantalla.</p>
+                <p className='font-secondary mt-4'>Comunicate con nosotros al número en pantalla.</p>
               </div>
             </div>
           </div>
