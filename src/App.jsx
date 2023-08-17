@@ -2,8 +2,7 @@
 // Components
 import Navbar from './components/Navbar'
 import SlidesCarousel from './components/SlidesCarousel'
-import Products from './components/Products'
-import Services from './components/Services'
+import ProductosYServicios from './components/ProductosYServicios'
 import WhoAreWe from './components/WhoAreWe'
 import Experiencia from './components/Experiencia'
 import Contact from './components/Contact'
@@ -16,8 +15,7 @@ function App() {
     <>
     <Navbar />
     <SlidesCarousel />
-    <Products />
-    <Services />
+    <ProductosYServicios />
     <WhoAreWe />
     <Experiencia />
     <Contact/>
