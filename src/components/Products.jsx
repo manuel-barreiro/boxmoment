@@ -1,8 +1,4 @@
 import { TbChristmasTree } from "react-icons/tb";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { TbTruckDelivery } from "react-icons/tb";
-import { FaBoxOpen } from "react-icons/fa6";
-
 
 const Products = () => {
   return (
@@ -20,7 +16,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
             </div>
 
-            <img src="/images/productos/cajaRojaNueva.png" className="w-72 mt-10 mb-2" alt="Caja Roja" />
+            <img src="/images/productos/cajaRojaNueva.png" className="w-80 mt-10 mb-2" alt="Caja Roja" />
 
             <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">10 productos</h1>
 
@@ -29,7 +25,7 @@ const Products = () => {
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Pan Dulce c/frutas 500gr –<span className="font-extrabold">Gaona</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Budín Coco c/DDDL 180gr –<span className="font-extrabold">Gaona</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Budín Vainilla c/Chips 180gr –<span className="font-extrabold">Gaona</span></p></li>
-              <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Turrón de Maní c/miel 120gr – Lheritier</p></li>
+              <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Turrón de Maní c/miel 120gr –<span className="font-extrabold">Lheritier</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Postre de Maní 75gr –<span className="font-extrabold">Lheritier</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Garrapiñada 80gr –<span className="font-extrabold">Lheritier</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Bocaditos de DDL 80gr –<span className="font-extrabold">Chocolart</span></p></li>
@@ -47,7 +43,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
             </div>
 
-            <img src="/images/productos/cajaVerdeNueva.png" className="w-72 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" alt="Caja Roja" />
+            <img src="/images/productos/cajaVerdeNueva.png" className="w-80 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" alt="Caja Roja" />
 
             <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h1>
 
@@ -73,14 +69,15 @@ const Products = () => {
 
             <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" alt="Caja Roja" />
 
-            <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">Armala como más te guste</h1>
+            <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h1>
 
-            <ul className="font-secondary font-semibold text-xs">
-              <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>
-              <li><p className="flex items-center gap-1"><TbChristmasTree className="text-[#ffc51a] w-6"/>Clickeá sobre el botón debajo para conocer las distintas opciones.</p></li>
+            <ul className="font-secondary font-semibold text-xs flex flex-col items-start gap-4">
+              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>
+              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Podés combinar cualquiera de los productos de las box roja y verde.</p></li>
+              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>¡Contactate con nosotros para que te ayudemos a armar tu box ideal!</p></li>
             </ul>
 
-            <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button>
+            {/* <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button> */}
 
           </div>
         </div>
