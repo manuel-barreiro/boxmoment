@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               <div className="flex-grow">
                 <p className="leading-relaxed text-md md:text-lg lg:text-xl text-black">contacto@boxmoment.com.ar</p>
-                <p className='font-secondary mt-4'>Escribinos vie e-mail y responderemos tu consulta.</p>
+                <p className='font-secondary mt-4'>Escribinos via e-mail y responderemos tu consulta.</p>
               </div>
             </div>
           </div>
