@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const links =[
         {name:"Productos",link:"productos", off:-80},
-        {name:"¿Quiénes Somos?",link:"quienesSomos", off:-70},
+        {name:"¿Quiénes somos?",link:"quienesSomos", off:-70},
         {name:"Contacto",link:"contacto", off:-80},
       ];
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                     </li>
 
                     <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
-                        <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes Somos?</Link>
+                        <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes somos?</Link>
                     </li>
                     
                 </ul>
