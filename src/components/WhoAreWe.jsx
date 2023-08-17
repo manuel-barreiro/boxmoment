@@ -13,7 +13,7 @@ const WhoAreWe = () => {
           </div>
 
           <div className='xl:basis-1/2 h-full rounded-3xl xl:h-80 md:mt-6'>
-            <video controls poster='/poster.png' class="object-cover object-center w-full h-full" src="/VideoCajas.mp4" alt="video" />
+            <video controls poster='/poster.png' loading="lazy" class="object-cover object-center w-full h-full" src="/VideoCajas.mp4" title="Somos Box Moment, hacemos las mejores cajas navideñas" alt="Somos Box Moment" />
           </div>
       </div>
 
@@ -33,16 +33,16 @@ const WhoAreWe = () => {
 
               <div className='grid grid-cols-2 md:grid-cols-4 gap-20 items-center'>
                   <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
-                      <img src="/images/clientes/logo-cordis.png" alt="" />
+                      <img src="/images/clientes/logo-cordis.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
                   <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
-                      <img src="/images/clientes/logoMaxi.png" alt="" />
+                      <img src="/images/clientes/logoMaxi.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
                   <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
-                      <img src="/images/clientes/logoPilares.png" alt="" />
+                      <img src="/images/clientes/logoPilares.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
                   <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
-                      <img src="/images/clientes/logoRIS.png" alt="" />
+                      <img src="/images/clientes/logoRIS.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
               </div>
       </div>

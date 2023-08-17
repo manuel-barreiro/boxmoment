@@ -39,7 +39,7 @@ export default function Navbar() {
 
             <div className='w-28 flex justify-center'>
                 <Link to="home" offset={-200} smooth={true} duration={500}>
-                    <img src="/images/bmLogo.png" alt="logo" className='cursor-pointer hover:scale-105 ease-in-out duration-300' />
+                    <img src="/images/bmLogo.png" title='Logo Cajas Navideñas' alt='Logo Cajas Navideñas' width='auto' height='auto' className='cursor-pointer hover:scale-105 ease-in-out duration-300' />
                 </Link>
             </div>
             

@@ -17,13 +17,13 @@ const SlidesCarousel = () => {
     <Flowbite theme={{ theme: customTheme }}>
       <Carousel name='home' slideInterval={5000} className='h-[20vh] md:h-[60vh] lg:h-[80vh] mt-32'>
         <div className="flex h-full items-center justify-center bg-pineGreen">
-          <img src="/images/slides/slide1.png" className='object-fill' alt="" />
+          <img src="/images/slides/slide1.png" className='object-fill' title='Box Moment Venta de Cajas Navideñas' alt='Box Moment Venta de Cajas Navideñas' width='auto' height='auto' />
         </div>
         <div className="flex h-full items-center justify-center bg-pineGreen">
-          <img src="/images/slides/slide2.png" className='object-fill' alt="" />
+          <img src="/images/slides/slide2.png" className='object-fill' title='Box Moment Venta de Cajas Navideñas' alt='Box Moment Venta de Cajas Navideñas' width='auto' height='auto' />
         </div>
         <div className="flex h-full items-center justify-center bg-pineGreen">
-          <img src="/images/slides/slide3.png" className='object-fill' alt="" />
+          <img src="/images/slides/slide3.png" className='object-fill' title='Box Moment Venta de Cajas Navideñas' alt='Box Moment Venta de Cajas Navideñas' width='auto' height='auto' />
         </div>
       </Carousel>
     </Flowbite>

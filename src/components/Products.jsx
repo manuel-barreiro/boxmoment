@@ -16,7 +16,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
             </div>
 
-            <img src="/images/productos/cajaRojaNueva.png" className="w-80 mt-10 mb-2" alt="Caja Roja" />
+            <img src="/images/productos/cajaRojaNueva.png" className="w-80 mt-10 mb-2" title='Caja Navideña Roja' alt='Caja Navideña Roja' width='auto' height='auto' loading="lazy"  />
 
             <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">10 productos</h4>
 
@@ -43,7 +43,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
             </div>
 
-            <img src="/images/productos/cajaVerdeNueva.png" className="w-80 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" alt="Caja Roja" />
+            <img src="/images/productos/cajaVerdeNueva.png" className="w-80 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" title='Caja Navideña Verde' alt='Caja Navideña Verde' width='auto' height='auto' loading="lazy" />
 
             <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h4>
 
@@ -67,7 +67,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>
             </div>
 
-            <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" alt="Caja Roja" />
+            <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" title='Caja Navideña Personalizada' alt='Caja Navideña Personalizada' width='auto' height='auto' loading="lazy" />
 
             <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h4>
 
