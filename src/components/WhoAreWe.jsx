@@ -25,9 +25,9 @@ const WhoAreWe = () => {
 
       <div className='flex flex-col gap-8 items-center'>
               
-              <h3 className='text-xl md:text-3xl lg:text-4xl font-bold flex gap-4 items-center'>
+              <h3 className='text-xl md:text-3xl lg:text-4xl font-bold flex gap-4 justify-center items-center text-center'>
                 <hr className='bg-[#c281ff] w-10 md:w-20 lg:w-32 h-1' />
-                Confían en nosotros
+                EMPRESAS QUE CONFÍAN EN NOSOTROS
                 <hr className='bg-[#c281ff] w-10 md:w-20 lg:w-32 h-1' />
               </h3>
 

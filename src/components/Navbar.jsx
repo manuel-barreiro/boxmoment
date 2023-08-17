@@ -22,14 +22,14 @@ export default function Navbar() {
   return (
         <nav className='fixed top-0 right-0 w-full h-32 z-[1000] bg-white flex justify-between items-center py-5 px-10 shadow-xl font-primary text-lg md:text-xl font-semibold text-darkNight '>
             
-            <div className='hidden md:block basis-5/12'>
+            <div className='hidden lg:block basis-5/12'>
                 <ul className='flex justify-evenly items-center'>
 
-                    <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                    <li className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="productos" offset={-80} smooth={true} duration={500}>Productos</Link>
                     </li>
 
-                    <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                    <li className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes somos?</Link>
                     </li>
                     
@@ -44,14 +44,14 @@ export default function Navbar() {
             </div>
             
             {/* Menu Icon & Close Icon */}
-            <div onClick={handleMenu} className='cursor-pointer md:hidden'>
+            <div onClick={handleMenu} className='cursor-pointer lg:hidden'>
                 {
                     open ? <RiCloseFill size={40}/> : <RiMenu3Fill size={40} />
                 }
             </div>
 
             {/* link items */}
-            <ul className={`md:hidden pb-8 absolute bg-white z-[-10] left-0 w-full pl-10 transition-all duration-500 ease-in-out ${open ? 'top-32' : 'top-[-690px]'} shadow-lg`}>
+            <ul className={`lg:hidden pb-8 absolute bg-white z-[-10] left-0 w-full pl-10 transition-all duration-500 ease-in-out ${open ? 'top-32' : 'top-[-690px]'} shadow-lg`}>
                 {
                     links.map((link) => (
                     <li className='my-7 font-semibold text-md'>
@@ -63,12 +63,12 @@ export default function Navbar() {
                 </a>
             </ul>
 
-            <div className='hidden md:block basis-5/12'>
+            <div className='hidden lg:block basis-5/12'>
                 <ul className='flex justify-evenly items-center'>
-                    <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                    <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer text-2xl'>
                         <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
                     </li>
-                    <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer'>
+                    <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
                         <a href="https://wa.me/+5491162801006" target='_blank'>Solicitar presupuesto</a>
                     </li>
                 </ul>

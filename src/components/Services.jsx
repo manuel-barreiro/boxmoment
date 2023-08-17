@@ -6,7 +6,7 @@ import { FaBoxOpen } from "react-icons/fa6";
 
 const Services = () => {
   return (
-    <section className="text-gray-600 body-font font-primary py-24">
+    <section className="text-gray-600 body-font font-primary py-24 bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover">
         <div>
             <h2 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">¿Vendes cajas festivas?</h2>
             <h3 className="text-xl md:text-4xl leading-normal text-pineGreen font-primary self-start font-bold text-center mb-4">¡En Box Moment te las armamos!</h3>
