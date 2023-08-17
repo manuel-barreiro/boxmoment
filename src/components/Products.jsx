@@ -6,7 +6,7 @@ const Products = () => {
     <section name='productos' className="w-full h-auto bg-[url('/images/backgrounds/products.svg')] md:bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover flex justify-center items-center py-20 md:py-28 px-10">
       
       <div className="flex flex-col justify-evenly gap-10 items-center">
-        <h1 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary self-start font-bold">Nuestros productos</h1>
+        <h1 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary self-start font-bold">Nuestras Cajas Navideñas</h1>
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 
@@ -18,7 +18,7 @@ const Products = () => {
 
             <img src="/images/productos/cajaRojaNueva.png" className="w-80 mt-10 mb-2" alt="Caja Roja" />
 
-            <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">10 productos</h1>
+            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">10 productos</h4>
 
             <ul className="font-secondary font-semibold text-xs">
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Sidra 720cc -<span className="font-extrabold">Del Valle</span></p></li>
@@ -45,7 +45,7 @@ const Products = () => {
 
             <img src="/images/productos/cajaVerdeNueva.png" className="w-80 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" alt="Caja Roja" />
 
-            <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h1>
+            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h4>
 
             <ul className="font-secondary font-semibold text-xs">
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Sidra 720cc -<span className="font-extrabold">Del Valle</span></p></li>
@@ -69,7 +69,7 @@ const Products = () => {
 
             <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" alt="Caja Roja" />
 
-            <h1 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h1>
+            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h4>
 
             <ul className="font-secondary font-semibold text-xs flex flex-col items-start gap-4">
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>

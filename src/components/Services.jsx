@@ -25,7 +25,7 @@ const Services = () => {
                 <AiOutlineShoppingCart size={50} />
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Recepción de mercadería</h2>
+                <h5 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Recepción de mercadería</h5>
                 <p className="leading-relaxed font-secondary">Recibimos los distintos productos que quieras utilizar en tus cajas.</p>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const Services = () => {
                 <FaBoxOpen size={50} />
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Armado de box</h2>
+                <h5 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Armado de box</h5>
                 <p className="leading-relaxed font-secondary">Nos encargamos de armar las cajas con tu selección personalizada de productos.</p>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Services = () => {
                 <TbTruckDelivery size={50} />
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Entrega o Pick-up</h2>
+                <h5 className="font-medium title-font text-gray-900 mb-1 text-xl md:text-2xl lg:text-3xl">Entrega o Pick-up</h5>
                 <p className="leading-relaxed font-secondary">Acordamos un método de entrega, o podés retirar vos mismo las cajas.</p>
                 </div>
             </div>
