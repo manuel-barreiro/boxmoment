@@ -59,7 +59,7 @@ export default function Navbar() {
                     </li>))
                 }
                 <a href="https://wa.me/+5491162801006" target='_blank'>
-                    <li className=' text-md w-56 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300'>Solicitar presupuesto</li>
+                    <li className=' text-md w-64 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300'>Solicitar presupuesto</li>
                 </a>
             </ul>
 
