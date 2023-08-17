@@ -3,23 +3,23 @@ import React from 'react'
 
 const WhoAreWe = () => {
   return (
-    <section name='quienesSomos' className="w-full h-full bg-[#ebebeb] py-20 md:py-28 px-8 md:px-32 font-primary flex flex-col gap-12">
+    <section name='quienesSomos' className="w-full h-full bg-[#ebebeb] py-20 md:py-28 px-8 md:px-32 font-primary flex flex-col gap-6">
 
-      <div className="flex flex-col xl:flex-row justify-evenly items-center gap-4">
+      <div className="flex flex-col xl:flex-row justify-evenly gap-4">
           <div className="xl:basis-1/2 h-auto xl:h-80 flex flex-col gap-5 items-start p-6">
                 <h1 className="text-3xl md:text-5xl font-bold">¿Quiénes somos?</h1>
-                <p className="text-justify font-secondary font-medium leading-relaxed">Box Moment lleva 4 años de trayectoria en el mercado, brindando la mayor comodidad y servicio a nuestros clientes en épocas festivas. </p>
-                <p className="text-justify font-secondary font-medium leading-relaxed">El respaldo de empresas de primera línea que eligen nuestros productos son el sello de garantía y confianza que nos permite llegar a más consumidores de una forma más rápida y segura sin dejar de brindar una atención personalizada a cada uno de nuestros clientes.</p>
+                <p className="text-justify font-secondary font-medium leading-relaxed">Box Moment lleva 4 años de trayectoria en el mercado, brindando la mayor <span className="font-bold">comodidad</span> y <span className="font-bold">servicio</span> a nuestros clientes en épocas festivas. </p>
+                <p className="text-justify font-secondary font-medium leading-relaxed">El respaldo de <span className="font-bold">empresas de primera línea</span> que eligen nuestros productos son el sello de <span className="font-bold">garantía</span> y <span className="font-bold">confianza</span> que nos permite llegar a más consumidores de una forma más rápida y segura sin dejar de brindar una <span className="font-bold">atención personalizada</span> a cada uno de nuestros clientes.</p>
           </div>
 
-          <div className='xl:basis-1/2 h-full rounded-3xl xl:h-80'>
-            <video controls class="object-cover object-center w-full h-full" src="/VideoCajas.mp4" alt="video" />
+          <div className='xl:basis-1/2 h-full rounded-3xl xl:h-80 md:mt-6'>
+            <video controls poster='/poster.png' class="object-cover object-center w-full h-full" src="/VideoCajas.mp4" alt="video" />
           </div>
       </div>
 
       <div>
         <p className="text-justify font-secondary font-medium p-6 -mt-4 leading-relaxed">
-        Nuestras cajas navideñas son una excelente opción para los regalos de fin de año que las EMPRESAS otorgan a sus colaboradores durante la época festiva. También llegamos a todo consumidor que quiera disfrutar de una mesa dulce acompañada de excelentes productos durante las fiestas, haciendo de ellas noches más ricas.
+        Nuestras cajas navideñas son una <span className="font-bold">excelente</span> opción para los regalos de fin de año que las empresas otorgan a sus colaboradores durante la época festiva. También llegamos a todo consumidor que quiera disfrutar de una mesa dulce acompañada de los<span className="font-bold"> mejores productos</span> durante las fiestas, haciendo de ellas noches más ricas.
         </p>
       </div>
 
