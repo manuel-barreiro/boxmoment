@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const links =[
         {name:"Productos",link:"productos", off:-80},
-        {name:"¿Quiénes Somos?",link:"quienesSomos", off:-80},
+        {name:"¿Quiénes Somos?",link:"quienesSomos", off:-70},
         {name:"Contacto",link:"contacto", off:-80},
       ];
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                     </li>
 
                     <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
-                        <Link to="quienesSomos" offset={-80} smooth={true} duration={500}>¿Quiénes Somos?</Link>
+                        <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes Somos?</Link>
                     </li>
                     
                 </ul>
@@ -64,7 +64,7 @@ export default function Navbar() {
             <div className='hidden md:block basis-5/12'>
                 <ul className='flex justify-evenly items-center'>
                     <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
-                        <Link to="contacto" offset={-40} smooth={true} duration={500}>Contacto</Link>
+                        <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
                     </li>
                     <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer'>
                         <a href="https://wa.me/+5491162801006" target='_blank'>Solicitar presupuesto</a>
