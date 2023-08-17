@@ -54,12 +54,12 @@ export default function Navbar() {
             <ul className={`md:hidden pb-8 absolute bg-white z-[-10] left-0 w-full pl-10 transition-all duration-500 ease-in-out ${open ? 'top-32' : 'top-[-690px]'} shadow-lg`}>
                 {
                     links.map((link) => (
-                    <li className='my-7 font-semibold text-sm'>
+                    <li className='my-7 font-semibold text-md'>
                         <Link to={link.link} onClick={handleMenu} offset={link.off} smooth={true} duration={500} className='hover:text-pinedecoration-pineGreen hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 '>{link.name}</Link>
                     </li>))
                 }
                 <a href="https://wa.me/+5491162801006" target='_blank'>
-                    <li className=' text-sm w-56 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300'>Solicitar presupuesto</li>
+                    <li className=' text-md w-56 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300'>Solicitar presupuesto</li>
                 </a>
             </ul>
 
