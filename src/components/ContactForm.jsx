@@ -37,7 +37,7 @@ const ContactForm = () => {
 
     return (
         
-      <form ref={form} onSubmit={sendEmail} className="h-auto pb-20 w-full relative font-primary">
+      <form name="contactForm" ref={form} onSubmit={sendEmail} className="h-auto pb-20 w-full relative font-primary">
           <div className="w-full h-full container px-8 md:px-32 mx-auto">
               <div className="flex flex-col text-center w-full mb-12">
                   <h3 className="sm:text-3xl text-2xl font-bold text-pineGreen mb-4">Solicitá tu presupuesto</h3>
@@ -48,30 +48,30 @@ const ContactForm = () => {
                       <div className="p-2 w-1/2">
                           <div className="relative">
                               <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nombre</label>
-                              <input required type="text" id="name" name="from_name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
+                              <input required type="text" id="name" name="from_name" pattern="[A-Za-zÁ-ÿ ]{3,15}" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
                           </div>
                       </div>
                       <div className="p-2 w-1/2">
                           <div className="relative">
                               <label htmlFor="email" className="leading-7 text-sm text-gray-600">Correo</label>
-                              <input required type="email" id="email" name="from_email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
+                              <input required  id="email" name="from_email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
                           </div>
                       </div>
                       <div className="p-2 w-1/2">
                           <div className="relative">
-                              <label htmlFor="empresa" className="leading-7 text-sm text-gray-600">Empresa</label>
+                              <label htmlFor="empresa" pattern="[A-Za-zÁ-ÿ ]{3,15}" className="leading-7 text-sm text-gray-600">Empresa</label>
                               <input required type="text" id="empresa" name="from_empresa" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
                           </div>
                       </div>
                       <div className="p-2 w-1/2">
                           <div className="relative">
-                              <label htmlFor="telefono" className="leading-7 text-sm text-gray-600">Teléfono</label>
+                              <label htmlFor="telefono" pattern="^[+]?[0-9]{1,3}[-\s\.]?[(]?[0-9]{1,3}[)]?[-\s\.]?[0-9]{3,4}[-\s\.]?[0-9]{3,4}$" className="leading-7 text-sm text-gray-600">Teléfono</label>
                               <input required type="text" id="telefono" name="from_cell" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-8"/>
                           </div>
                       </div>
                       <div className="p-2 w-full">
                           <div className="relative">
-                              <label htmlFor="message" className="leading-7 text-sm text-gray-600">Consulta</label>
+                              <label htmlFor="message" maxLength="500" className="leading-7 text-sm text-gray-600">Consulta</label>
                               <textarea required id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pineGreen text-pineGreen focus:bg-white focus:ring-2 focus:ring-pineGreen/50 text-pineGreen/50 h-14 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                           </div>
                       </div>

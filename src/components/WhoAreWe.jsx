@@ -31,17 +31,17 @@ const WhoAreWe = () => {
                 <hr className='bg-[#c281ff] w-10 md:w-20 lg:w-32 h-1' />
               </h3>
 
-              <div className='grid grid-cols-2 md:grid-cols-4 gap-20 items-center'>
-                  <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+              <div className='grid grid-cols-2 md:grid-cols-4 gap-16 md:gap-28 items-center'>
+                  <div className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
                       <img src="/images/clientes/logo-cordis.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
-                  <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  <div className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
                       <img src="/images/clientes/logoMaxi.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
-                  <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  <div className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
                       <img src="/images/clientes/gaonaLogo.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
-                  <div className='w-28 md:w-32 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  <div className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
                       <img src="/images/clientes/logoRIS.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </div>
               </div>

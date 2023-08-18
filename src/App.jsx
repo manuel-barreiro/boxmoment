@@ -1,7 +1,7 @@
 
 // Components
 import Navbar from './components/Navbar'
-import SlidesCarousel from './components/SlidesCarousel'
+import NewCarousel from './components/NewCarousel'
 import ProductosYServicios from './components/ProductosYServicios'
 import WhoAreWe from './components/WhoAreWe'
 import Experiencia from './components/Experiencia'
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <SlidesCarousel />
+    <NewCarousel />
     <ProductosYServicios />
     <WhoAreWe />
     <Experiencia />

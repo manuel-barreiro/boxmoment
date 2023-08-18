@@ -25,7 +25,7 @@ const Experiencia = () => {
                             <BsBoxFill size={40} className='absolute -top-5 -left-6 text-[#c281ff]' />
                             <p className='font-bold text-4xl md:text-5xl'>
                                 {counterOn &&
-                                    <CountUp start={0} prefix='+' end={9400} separator='.' duration={4} delay={0}/>
+                                    <CountUp start={0} prefix='+' end={45400} separator='.' duration={4} delay={0}/>
                                 }
                             </p>
                             <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg'>Cajas producidas</p>
