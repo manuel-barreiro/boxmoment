@@ -54,7 +54,7 @@ export default function Navbar() {
             <ul className={`lg:hidden pb-8 absolute bg-white z-[-10] left-0 w-full pl-10 transition-all duration-500 ease-in-out ${open ? 'top-32' : 'top-[-690px]'} shadow-lg`}>
                 {
                     links.map((link) => (
-                    <li className='my-7 font-semibold text-md'>
+                    <li key={link.link} className='my-7 font-semibold text-md'>
                         <Link to={link.link} onClick={handleMenu} offset={link.off} smooth={true} duration={500} className='hover:text-pinedecoration-pineGreen hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 '>{link.name}</Link>
                     </li>))
                 }
@@ -69,7 +69,7 @@ export default function Navbar() {
                         <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
                     </li>
                     <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
-                        <a href="https://wa.me/+5491162801006" target='_blank'>Solicitar presupuesto</a>
+                        <a href="/src/contact-form-17/form.html" target='_blank'>Solicitar presupuesto</a>
                     </li>
                 </ul>
             </div>

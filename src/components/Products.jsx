@@ -67,7 +67,7 @@ const Products = () => {
               <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>
             </div>
 
-            <img src="/images/productos/personalizada.png" className="w-60 mt-10 mb-2" title='Caja Navideña Personalizada' alt='Caja Navideña Personalizada' width='auto' height='auto' loading="lazy" />
+            <img src="/images/productos/personalizada.png" className="w-56 mt-10 mb-2" title='Caja Navideña Personalizada' alt='Caja Navideña Personalizada' width='auto' height='auto' loading="lazy" />
 
             <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h4>
 
