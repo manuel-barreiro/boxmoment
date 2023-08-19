@@ -6,7 +6,8 @@ import ProductosYServicios from './components/ProductosYServicios'
 import WhoAreWe from './components/WhoAreWe'
 import Experiencia from './components/Experiencia'
 import Contact from './components/Contact'
-import ContactForm from './components/ContactForm'
+// import ContactForm from './components/ContactForm'
+import { NewForm } from './components/NewForm'
 import Footer from './components/Footer'
 import WhatsappButton from './components/WhatsappButton'
 
@@ -22,7 +23,8 @@ function App() {
     <WhoAreWe />
     <Experiencia />
     <Contact/>
-    <ContactForm />
+    {/* <ContactForm /> */}
+    <NewForm />
     <Footer/>
     <WhatsappButton />
     <Toaster position="bottom-left"

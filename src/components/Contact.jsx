@@ -6,8 +6,8 @@ const Contact = () => {
     <section name="contacto" className="text-gray-600 font-primary">
       <div className="container px-6 md:px-20 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-14">
-          <h3 className="sm:text-5xl text-3xl font-medium text-darkNight">Contactanos</h3>
-          <h4 className="text-xs tracking-widest font-medium title-font mt-2 text-pineGreen">TU CONSULTA NO ES MOLESTIA, ESTAMOS PARA AYUDARTE.</h4>
+          <h3 className="sm:text-5xl text-4xl font-bold text-pineGreen mb-2">Contactanos</h3>
+          <h4 className="lg:w-2/3 mx-auto leading-relaxed text-sm uppercase text-gray-500">TU CONSULTA NO ES MOLESTIA, ESTAMOS PARA AYUDARTE.</h4>
         </div>
 
         <div className="flex flex-wrap -m-4">
