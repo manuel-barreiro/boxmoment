@@ -55,6 +55,7 @@ export const Input = ({
           id={id}
           type={type}
           className={cn(input_tailwind)}
+          autoComplete="off"
           placeholder={placeholder}
           {...register(name, validation)}
         />

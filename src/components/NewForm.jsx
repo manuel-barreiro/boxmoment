@@ -15,18 +15,37 @@ import {
   empresa_validation,
   cell_validation,
 } from '../utils/inputValidations'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { GrMail } from 'react-icons/gr'
-import { BsFillCheckSquareFill } from 'react-icons/bs'
+import { BsFillPatchCheckFill, BsFillPatchExclamationFill } from 'react-icons/bs'
+import emailjs from '@emailjs/browser';
 
 export const NewForm = () => {
+  
   const methods = useForm()
   const [success, setSuccess] = useState(false)
+  const [failed, setFailed] = useState(false)
+
+  const form = useRef();
 
   const onSubmit = methods.handleSubmit(data => {
     console.log(data)
-    methods.reset()
-    setSuccess(true)
+    emailjs.sendForm('service_5c1a51', 'template_pdgdg8b', form.current, 'Xl00r8D3G-NwN09jC')
+        .then((result) => {
+            console.log(result.text);
+            setSuccess(true)
+            methods.reset()
+            setTimeout(() => {
+                setSuccess(false);
+              }, "20000");
+        }, (error) => {
+            console.log(error.text);
+            setFailed(true)
+            methods.reset()
+            setTimeout(() => {
+                setFailed(false);
+              }, "20000");
+        });
   })
 
   return (
@@ -41,6 +60,7 @@ export const NewForm = () => {
             <FormProvider {...methods}>
                 <form
                     onSubmit={e => e.preventDefault()}
+                    ref={form}
                     noValidate
                     autoComplete="off"
                     className="container"
@@ -55,8 +75,13 @@ export const NewForm = () => {
                         </div>
                         <div className="mt-5">
                                 {success && (
-                                    <p className="flex items-center gap-1 mb-5 font-semibold text-green-500">
-                                    <BsFillCheckSquareFill /> Form has been submitted successfully
+                                    <p className="flex items-center justify-center gap-1 mb-5 font-semibold text-md md:text-lg text-pineGreen">
+                                    <BsFillPatchCheckFill size={25} /> Tu consulta fue enviada correctamente
+                                    </p>
+                                )}
+                                {failed && (
+                                    <p className="flex items-center justify-center gap-1 mb-5 font-semibold text-md md:text-lg text-xmasRed">
+                                    <BsFillPatchExclamationFill size={25} /> Error al enviar el formulario
                                     </p>
                                 )}
                                 <button

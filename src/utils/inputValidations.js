@@ -7,7 +7,7 @@
 *-------------------------------------------------------------------*/
 
 export const name_validation = {
-  name: 'Nombre',
+  name: 'nombre',
   label: 'Nombre',
   type: 'text',
   id: 'name',
