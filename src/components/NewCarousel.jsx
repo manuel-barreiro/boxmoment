@@ -36,13 +36,13 @@ export default function Carousel({
           onClick={prev}
           className="p-1 rounded-full shadow bg-white/10 text-gray-800 hover:bg-white/30"
         >
-          <BsChevronLeft size={20} />
+          <BsChevronLeft size={30} />
         </button>
         <button
           onClick={next}
           className="p-1 rounded-full shadow bg-white/10 text-gray-800 hover:bg-white/30"
         >
-        <BsChevronRight size={20} />
+        <BsChevronRight size={30} />
         </button>
       </div>
 
