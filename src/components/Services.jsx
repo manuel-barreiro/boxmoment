@@ -7,10 +7,9 @@ import { FaBoxOpen } from "react-icons/fa6";
 const Services = () => {
   return (
     <section className="text-gray-600 body-font font-primary pt-20 pb-36">
-        <div>
-            <h2 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">¿Vendes cajas festivas?</h2>
-            <h3 className="text-xl md:text-4xl leading-normal text-pineGreen font-primary self-start font-bold text-center mb-4">¡En Box Moment te las armamos!</h3>
-            <h4 className="text-md md:text-xl leading-normal text-darkNight font-secondary self-start font-bold text-center">En 3 simples pasos tenés tus cajas listas:</h4>
+        <div className="flex flex-col max-w-3xl  justify-center items-center mx-auto">
+            <h2 className="text-pineGreen text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">¡En <span className="text-darkNight">BOX MOMENT</span> nos encargamos de armar tus cajas!</h2>
+            <h4 className="text-md  md:text-xl leading-normal text-darkNight font-secondary font-bold text-center">En 3 simples pasos tenés tus cajas listas:</h4>
         </div>
 
         <div className="container px-5 pt-10 mx-auto flex flex-wrap">

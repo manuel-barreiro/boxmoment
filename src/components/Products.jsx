@@ -6,7 +6,7 @@ const Products = () => {
     <section name='productos' className="w-full h-auto flex justify-center items-center py-20 md:py-28 px-10">
       
       <div className="flex flex-col justify-evenly gap-10 items-center">
-        <h1 className="text-darkNight text-3xl md:text-5xl leading-normal font-primary font-bold">Nuestras Cajas Navideñas</h1>
+        <h1 className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">Nuestras Cajas Navideñas</h1>
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 

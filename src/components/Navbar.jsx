@@ -59,7 +59,7 @@ export default function Navbar() {
                     </li>))
                 }
                     <li className=' text-md w-64 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300'>
-                        <Link onClick={handleMenu} to="contactForm" offset={-150} smooth={true} duration={500}>Solicitar presupuesto</Link>
+                        <Link onClick={handleMenu} to="contactForm" offset={-170} smooth={true} duration={500}>Solicitar presupuesto</Link>
                     </li>
             </ul>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
                         <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
                     </li>
                     <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
-                        <Link to="contactForm" offset={-150} smooth={true} duration={500}>Solicitar presupuesto</Link>
+                        <Link to="contactForm" offset={-170} smooth={true} duration={500}>Solicitar presupuesto</Link>
                     </li>
                 </ul>
             </div>

@@ -96,7 +96,7 @@ export const empresa_validation = {
 
 export const email_validation = {
   name: 'email',
-  label: 'Correo electrónico',
+  label: 'Email',
   type: 'email',
   id: 'email',
   placeholder: '',

@@ -7,7 +7,7 @@ const WhoAreWe = () => {
 
       <div className="flex flex-col xl:flex-row justify-evenly gap-4">
           <div className="xl:basis-1/2 h-auto xl:h-80 flex flex-col gap-5 items-start p-6">
-                <h3 className="text-3xl md:text-5xl font-bold">¿Quiénes somos?</h3>
+                <h3 className="text-3xl md:text-5xl font-bold text-center">¿Quiénes somos?</h3>
                 <p className="text-justify font-secondary font-medium leading-relaxed">Box Moment lleva 4 años de trayectoria en el mercado, brindando la mayor <span className="font-bold">comodidad</span> y <span className="font-bold">servicio</span> a nuestros clientes en épocas festivas. </p>
                 <p className="text-justify font-secondary font-medium leading-relaxed">El respaldo de <span className="font-bold">empresas de primera línea</span> que eligen nuestros productos son el sello de <span className="font-bold">garantía</span> y <span className="font-bold">confianza</span> que nos permite llegar a más consumidores de una forma más rápida y segura sin dejar de brindar una <span className="font-bold">atención personalizada</span> a cada uno de nuestros clientes.</p>
           </div>

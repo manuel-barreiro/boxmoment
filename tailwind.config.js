@@ -21,7 +21,7 @@ export default {
         darkNight: "#191919"
       }
     },
-    plugins: [require('flowbite/plugin')],
+    plugins: [],
   }
 }
 
