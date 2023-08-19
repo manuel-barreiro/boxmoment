@@ -75,7 +75,7 @@ export const NewForm = () => {
                         </div>
                         <div className="mt-5">
                                 {success && (
-                                    <p className="flex items-center justify-center gap-1 mb-5 font-semibold text-md md:text-lg text-pineGreen">
+                                    <p className="flex items-center justify-center gap-1 mb-5 font-semibold text-sm md:text-lg text-pineGreen">
                                     <BsFillPatchCheckFill size={25} /> Tu consulta fue enviada correctamente
                                     </p>
                                 )}
