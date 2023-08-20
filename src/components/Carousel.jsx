@@ -21,7 +21,7 @@ export default function Carousel({
     return () => clearInterval(slideInterval)
   }, [])
   return (
-    <section name='home' className="overflow-hidden relative mt-32">
+    <section name='home' className="overflow-hidden h-full relative mt-32">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
