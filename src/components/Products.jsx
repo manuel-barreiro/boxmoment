@@ -1,18 +1,6 @@
 import { TbChristmasTree } from "react-icons/tb";
-import { motion } from 'framer-motion'
-
 
 const Products = () => {
-
-  const h1AnimationVariants = {
-    initial: { opacity: 0, y: 15 },
-    animate:{ opacity: 1 , y: 0},      
-  }
-
-  const cardAnimationVariants = {
-    initial: { opacity: 0, y: 15 },
-    animate:{ opacity: 1 , y: 0},       
-  }
 
   return (
 
@@ -20,25 +8,13 @@ const Products = () => {
       
       <div className="flex flex-col justify-evenly gap-10 items-center">
 
-        <motion.h1
-        variants={h1AnimationVariants}
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true }}
-        transition= {{ duration: 0.5, delay: 0.3 }}
-        className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">
+        <h1 className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">
           Nuestras Cajas Navideñas
-        </motion.h1>
+        </h1>
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 
-          <motion.div
-          variants={cardAnimationVariants}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-          transition= {{ duration: 0.5, delay: 0.5 }} 
-          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
             <div className="bg-xmasRed w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
@@ -62,15 +38,9 @@ const Products = () => {
               
             </ul>
 
-          </motion.div>
+          </div>
 
-          <motion.div
-          variants={cardAnimationVariants}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-          transition= {{ duration: 0.5, delay: 0.6 }} 
-          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
             <div className="bg-pineGreen w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
@@ -91,16 +61,9 @@ const Products = () => {
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Confites de Chocolate 40gr –<span className="font-extrabold">Chocolart</span></p></li>
             </ul>
 
-
-          </motion.div>
+          </div>
           
-          <motion.div 
-          variants={cardAnimationVariants}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-          transition= {{ duration: 0.5, delay: 0.7 }}
-          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
             <div className="bg-[#ffc51a] w-44 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>
@@ -118,7 +81,8 @@ const Products = () => {
 
             {/* <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button> */}
 
-          </motion.div>
+          </div>
+
         </div>
       </div>
     </section>
