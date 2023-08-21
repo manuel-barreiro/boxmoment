@@ -20,13 +20,11 @@ export default function Carousel({
     const slideInterval = setInterval(next, autoSlideInterval)
     return () => clearInterval(slideInterval)
   }, [])
-  
   return (
-    <section name='home' className="overflow-x-hidden h-full relative mt-32">
+    <section name='home' className="overflow-hidden h-full relative mt-32">
       <div
-        className="flex transition-transform overflow-x-hidden h-full ease-out duration-500"
-        style={{ transform: `translateX(-${curr * 100}%)`,
-                  overflow: 'hidden' }}
+        className="flex transition-transform ease-out duration-500"
+        style={{ transform: `translateX(-${curr * 100}%)` }}
       >
          {slides.map((img) => (
           <img key={img} src={img} className="object-contain" alt="" />

@@ -10,8 +10,9 @@
     src: url("/fonts/Reigo.ttf") format("truetype");
   }
 
-body {
+html, body {
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Para sacarle las flechitas al input de telefono en el form */
