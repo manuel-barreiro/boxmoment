@@ -36,7 +36,7 @@ const Products = () => {
           variants={cardAnimationVariants}
           initial="initial"
           whileInView="animate"
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           transition= {{ duration: 0.5, delay: 0.4 }} 
           className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
@@ -68,7 +68,7 @@ const Products = () => {
           variants={cardAnimationVariants}
           initial="initial"
           whileInView="animate"
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           transition= {{ duration: 0.5, delay: 0.5 }} 
           className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
@@ -98,7 +98,7 @@ const Products = () => {
           variants={cardAnimationVariants}
           initial="initial"
           whileInView="animate"
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           transition= {{ duration: 0.5, delay: 0.6 }}
           className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
 
