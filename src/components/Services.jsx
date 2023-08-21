@@ -30,7 +30,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.5, delay: 0.3 }} 
+                transition= {{ duration: 0.5, delay: 0.4 }} 
                 className="text-pineGreen text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">
                 ¡En <span className="text-darkNight">BOX MOMENT</span> nos encargamos de armar tus cajas!
             </motion.h2>
@@ -40,7 +40,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.5, delay: 0.4 }} 
+                transition= {{ duration: 0.5, delay: 0.5 }} 
                 className="text-md  md:text-xl leading-normal text-darkNight font-secondary font-bold text-center">
                     En 3 simples pasos tenés tus cajas listas:
             </motion.h4>
@@ -59,7 +59,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.5 }}
+                transition= {{ duration: 0.3, delay: 0.7 }}
                 className="flex sm:items-center">
 
                     <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pineGreen text-white relative z-10 font-medium text-sm">1</div>
@@ -89,7 +89,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.5 }}
+                transition= {{ duration: 0.3, delay: 0.7 }}
                 className="flex sm:items-center">
 
                     <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pineGreen text-white relative z-10 font-medium text-sm">2</div>
@@ -120,7 +120,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.5 }}
+                transition= {{ duration: 0.3, delay: 0.7 }}
                 className="flex sm:items-center">
 
                     <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pineGreen text-white relative z-10 font-medium text-sm">3</div>
