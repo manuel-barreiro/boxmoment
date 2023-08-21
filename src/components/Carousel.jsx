@@ -23,11 +23,11 @@ export default function Carousel({
   return (
     <section name='home' className="overflow-hidden h-full relative mt-32">
       <div
-        className="flex transition-transform ease-out duration-500"
+        className="flex h-full transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
          {slides.map((img) => (
-          <img key={img} src={img} className="object-contain" alt="" />
+          <img key={img} src={img} className="object-contain h-full" alt="" />
         ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
