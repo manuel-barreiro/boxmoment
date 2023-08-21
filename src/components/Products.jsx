@@ -9,6 +9,11 @@ const Products = () => {
     animate:{ y: 0, opacity: 1 },      
   }
 
+  const cardAnimationVariants = {
+    initial: { y: 15, opacity: 0 },
+    animate:{ y: 0, opacity: 1 },      
+  }
+
   return (
 
     <section name='productos' className="w-full h-auto flex justify-center items-center py-20 md:py-28 px-10">
@@ -19,15 +24,21 @@ const Products = () => {
         variants={h1AnimationVariants}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true }}
-        transition= {{ duration: 0.5, delay: 1.5 }}
+        // viewport={{ once: true }}
+        transition= {{ duration: 0.5, delay: 0.3 }}
         className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">
           Nuestras Cajas Navideñas
         </motion.h1>
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
+          <motion.div
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          // viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.4 }} 
+          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-xmasRed w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
@@ -51,10 +62,15 @@ const Products = () => {
               
             </ul>
 
+          </motion.div>
 
-          </div>
-
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
+          <motion.div
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          // viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }} 
+          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-pineGreen w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
@@ -76,9 +92,15 @@ const Products = () => {
             </ul>
 
 
-          </div>
+          </motion.div>
           
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
+          <motion.div 
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          // viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.6 }}
+          className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-[#ffc51a] w-44 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>
@@ -96,7 +118,7 @@ const Products = () => {
 
             {/* <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button> */}
 
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
