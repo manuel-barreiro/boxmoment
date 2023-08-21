@@ -1,7 +1,14 @@
 import React from "react"
 import { FaWhatsapp, FaRegEnvelope, FaPhone } from "react-icons/fa6";
+import { motion } from 'framer-motion'
 
 const Contact = () => {
+
+  const cardAnimationVariants = {
+    initial: { opacity: 0, y: 15 },
+    animate:{ opacity: 1 , y: 0},       
+  }
+
   return (
     <section name="contacto" className="text-gray-600 font-primary">
       <div className="container px-6 md:px-20 py-24 mx-auto">
@@ -12,7 +19,13 @@ const Contact = () => {
 
         <div className="flex flex-wrap -m-4">
 
-          <div className="p-4 w-full xl:w-1/3">
+          <motion.div
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }} 
+          className="p-4 w-full xl:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">
                 <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
@@ -25,9 +38,15 @@ const Contact = () => {
                 <p className='font-secondary mt-4'>Contactanos a nuestro Whatsapp y un asesor responderá tu consulta a la brevedad.</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="p-4 w-full xl:w-1/3">
+          <motion.div
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }} 
+          className="p-4 w-full xl:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">
                 <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
@@ -40,9 +59,15 @@ const Contact = () => {
                 <p className='font-secondary mt-4'>Escribinos via e-mail y responderemos tu consulta.</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="p-4 w-full xl:w-1/3">
+          <motion.div
+          variants={cardAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }} 
+          className="p-4 w-full xl:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">
                 <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-pineGreen/80 text-white flex-shrink-0">
@@ -55,7 +80,7 @@ const Contact = () => {
                 <p className='font-secondary mt-4'>Comunicate con nosotros al número en pantalla.</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
         </div>
 
