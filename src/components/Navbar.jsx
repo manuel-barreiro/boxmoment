@@ -2,8 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Link, animateScroll as scroll, } from 'react-scroll'
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
-
-
+import { motion } from 'framer-motion'
 
 export default function Navbar() {
 
@@ -25,23 +24,35 @@ export default function Navbar() {
             <div className='hidden lg:block basis-5/12'>
                 <ul className='flex justify-evenly items-center'>
 
-                    <li className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                    <motion.li 
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0,  opacity: 1 }}
+                        transition= {{ duration: 0.1}}
+                        className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="productos" offset={-80} smooth={true} duration={500}>Productos</Link>
-                    </li>
+                    </motion.li>
 
-                    <li className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                    <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0,  opacity: 1 }}
+                        transition= {{ duration: 0.1, delay: 0.1}}
+                        className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes somos?</Link>
-                    </li>
+                    </motion.li>
                     
                 </ul>
             </div>
             
 
-            <div className='w-28 flex justify-center'>
+            <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition= {{ duration: 1 }}
+                className='w-28 flex justify-center'>
                 <Link to="home" offset={-200} smooth={true} duration={500}>
                     <img src="/images/bmLogo.png" title='Logo Cajas Navideñas' alt='Logo Cajas Navideñas' width='auto' height='auto' className='cursor-pointer hover:scale-105 ease-in-out duration-300' />
                 </Link>
-            </div>
+            </motion.div>
             
             {/* Menu Icon & Close Icon */}
             <div onClick={handleMenu} className='cursor-pointer lg:hidden'>
@@ -65,12 +76,20 @@ export default function Navbar() {
 
             <div className='hidden lg:block basis-5/12'>
                 <ul className='flex justify-evenly items-center'>
-                    <li className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer text-2xl'>
+                    <motion.li
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0,  opacity: 1 }}
+                    transition= {{ duration: 0.1, delay: 0.2}} 
+                    className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer text-2xl'>
                         <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
-                    </li>
-                    <li className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
+                    </motion.li>
+                    <motion.li 
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0,  opacity: 1 }}
+                    transition= {{ duration: 0.1, delay: 0.3}}
+                    className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
                         <Link to="contactForm" offset={-170} smooth={true} duration={500}>Solicitar presupuesto</Link>
-                    </li>
+                    </motion.li>
                 </ul>
             </div>
         </nav>

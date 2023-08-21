@@ -1,12 +1,29 @@
 import { TbChristmasTree } from "react-icons/tb";
+import { motion } from 'framer-motion'
+
 
 const Products = () => {
+
+  const h1AnimationVariants = {
+    initial: { y: 15, opacity: 0 },
+    animate:{ y: 0, opacity: 1 },      
+  }
+
   return (
 
     <section name='productos' className="w-full h-auto flex justify-center items-center py-20 md:py-28 px-10">
       
       <div className="flex flex-col justify-evenly gap-10 items-center">
-        <h1 className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">Nuestras Cajas Navideñas</h1>
+
+        <motion.h1
+        variants={h1AnimationVariants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        transition= {{ duration: 0.5, delay: 1.5 }}
+        className="text-darkNight text-3xl text-center md:text-5xl leading-normal font-primary font-bold">
+          Nuestras Cajas Navideñas
+        </motion.h1>
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 
