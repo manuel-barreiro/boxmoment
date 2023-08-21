@@ -10,3 +10,17 @@
     src: url("/fonts/Reigo.ttf") format("truetype");
   }
 
+body {
+  overflow-x: hidden;
+}
+
+/* Para sacarle las flechitas al input de telefono en el form */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+        margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
