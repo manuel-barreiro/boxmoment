@@ -29,7 +29,7 @@ const Services = () => {
                 variants={h2AnimationVariants}
                 initial="initial"
                 whileInView="animate"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 transition= {{ duration: 0.5, delay: 0.3 }} 
                 className="text-pineGreen text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">
                 ¡En <span className="text-darkNight">BOX MOMENT</span> nos encargamos de armar tus cajas!
@@ -39,7 +39,7 @@ const Services = () => {
                 variants={h4AnimationVariants}
                 initial="initial"
                 whileInView="animate"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 transition= {{ duration: 0.5, delay: 0.3 }} 
                 className="text-md  md:text-xl leading-normal text-darkNight font-secondary font-bold text-center">
                     En 3 simples pasos tenés tus cajas listas:
@@ -53,7 +53,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.3 }} 
+                transition= {{ duration: 0.3, delay: 0.5 }} 
                 className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
 
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -79,7 +79,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.3 }} 
+                transition= {{ duration: 0.3, delay: 0.5 }} 
                 className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
 
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -105,7 +105,7 @@ const Services = () => {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                transition= {{ duration: 0.3, delay: 0.3 }} 
+                transition= {{ duration: 0.3, delay: 0.5 }} 
                 className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
                     <div className="h-full w-1 bg-pineGreen/30  pointer-events-none"></div>
