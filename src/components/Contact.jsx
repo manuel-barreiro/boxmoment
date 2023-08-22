@@ -45,7 +45,7 @@ const Contact = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          transition= {{ duration: 0.5, delay: 0.5 }} 
+          transition= {{ duration: 0.5, delay: 0.6 }} 
           className="p-4 w-full xl:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">
@@ -66,7 +66,7 @@ const Contact = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          transition= {{ duration: 0.5, delay: 0.5 }} 
+          transition= {{ duration: 0.5, delay: 0.7 }} 
           className="p-4 w-full xl:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">

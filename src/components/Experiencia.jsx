@@ -13,7 +13,7 @@ const Experiencia = () => {
 
   return (
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-        <section className="h-auto py-20 md:py-28 w-full bg-[url('/images/backgrounds/experiencia.svg')] bg-center bg-cover font-primary">
+        <section className="h-auto py-20 md:py-28 w-full bg-[url('/images/backgrounds/pruebaExp.svg')] bg-center bg-cover font-primary">
 
             <div className="w-full h-full container px-8 xl:px-32 mx-auto">
 
