@@ -27,16 +27,22 @@ export default function Navbar() {
                     <motion.li 
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0,  opacity: 1 }}
-                        transition= {{ duration: 0.1}}
-                        className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                        whileHover={{ scale: 1.1, 
+                                      transition: {duration: 0.1, delay: 0}
+                        }}
+                        transition= {{ duration: 0.1 }}
+                        className='hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="productos" offset={-80} smooth={true} duration={500}>Productos</Link>
                     </motion.li>
 
                     <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0,  opacity: 1 }}
+                        whileHover={{ scale: 1.1, 
+                                      transition: {duration: 0.1, delay: 0}
+                        }}
                         transition= {{ duration: 0.1, delay: 0.1}}
-                        className='hover:scale-105 hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
+                        className='hover:underline underline-offset-8 text-2xl decoration-pineGreen ease-in-out duration-300 cursor-pointer'>
                         <Link to="quienesSomos" offset={-70} smooth={true} duration={500}>¿Quiénes somos?</Link>
                     </motion.li>
                     
@@ -83,15 +89,21 @@ export default function Navbar() {
                     <motion.li
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0,  opacity: 1 }}
+                    whileHover={{ scale: 1.1, 
+                        transition: {duration: 0.1, delay: 0}
+                    }}
                     transition= {{ duration: 0.1, delay: 0.2}} 
-                    className='hover:scale-105 hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer text-2xl'>
+                    className='hover:underline underline-offset-8 decoration-pineGreen ease-in-out duration-300 cursor-pointer text-2xl'>
                         <Link to="contacto" offset={-80} smooth={true} duration={500}>Contacto</Link>
                     </motion.li>
                     <motion.li 
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0,  opacity: 1 }}
+                    whileHover={{ scale: 1.1, 
+                        transition: {duration: 0.1, delay: 0}
+                    }}
                     transition= {{ duration: 0.1, delay: 0.3}}
-                    className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black  hover:scale-105 hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
+                    className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] text-center rounded-full bg-[#ffc51a] px-4 py-1 font-black hover:shadow-[6.0px_10.0px_10.0px_rgba(0,0,0,0.38)] ease-in-out duration-300 cursor-pointer text-2xl'>
                         <Link to="contactForm" offset={-170} smooth={true} duration={500}>Solicitar presupuesto</Link>
                     </motion.li>
                 </ul>
