@@ -22,7 +22,7 @@ const Products = () => {
 
             <img src="/images/productos/cajaRojaNueva.png" className="w-80 mt-10 mb-2" title='Caja Navideña Roja' alt='Caja Navideña Roja' width='auto' height='auto' loading="lazy"  />
 
-            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">10 productos</h4>
+            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">11 productos</h4>
 
             <ul className="font-secondary font-semibold text-xs">
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Sidra 720cc -<span className="font-extrabold">Del Valle</span></p></li>
@@ -35,6 +35,7 @@ const Products = () => {
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Bocaditos de DDL 80gr –<span className="font-extrabold">Chocolart</span></p></li>
             <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Maní c/Chocolate 80gr –<span className="font-extrabold">Chocolart</span></p></li>
             <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Confites de Chocolate 80gr –<span className="font-extrabold">Chocolart</span></p></li>
+            <li><p className="flex items-center gap-1"><TbChristmasTree className="text-xmasRed"/> Estuche Navideño</p></li>
               
             </ul>
 
@@ -48,7 +49,7 @@ const Products = () => {
 
             <img src="/images/productos/cajaVerdeNueva.png" className="w-80 mt-10 mb-2 underline underline-offset-8 decoration-wavy decoration-gray-950" title='Caja Navideña Verde' alt='Caja Navideña Verde' width='auto' height='auto' loading="lazy" />
 
-            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">8 productos</h4>
+            <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-1 mb-2">9 productos</h4>
 
             <ul className="font-secondary font-semibold text-xs">
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Sidra 720cc -<span className="font-extrabold">Del Valle</span></p></li>
@@ -59,6 +60,7 @@ const Products = () => {
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Postre de Maní 75gr –<span className="font-extrabold">Lheritier</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Garrapiñada 80gr –<span className="font-extrabold">Lheritier</span></p></li>
               <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Confites de Chocolate 40gr –<span className="font-extrabold">Chocolart</span></p></li>
+              <li><p className="flex items-center gap-1"><TbChristmasTree className="text-pineGreen"/> Estuche Navideño</p></li>
             </ul>
 
           </div>

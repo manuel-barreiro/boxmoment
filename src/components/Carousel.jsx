@@ -6,7 +6,7 @@ export default function Carousel({
   autoSlideInterval = 10000,
 }) {
  
-  const slides = (window.innerWidth > 450 ) ? ["/images/slides/slide1.png/", "/images/slides/slide2.png/", "/images/slides/slide3.png/", "/images/slides/slide4.png/"] : ["/images/slides/slide1Mobile.png/", "/images/slides/slide2Mobile.png/", "/images/slides/slide3Mobile.png/", "/images/slides/slide4Mobile.png/" ]
+  const slides = (window.innerWidth > 450 ) ? ["/images/slides/slide1.png/", "/images/slides/slide2.png/", "/images/slides/slide4.png/"] : ["/images/slides/slide1Mobile.png/", "/images/slides/slide2Mobile.png/", "/images/slides/slide4Mobile.png/" ]
 
   const [curr, setCurr] = useState(0)
 

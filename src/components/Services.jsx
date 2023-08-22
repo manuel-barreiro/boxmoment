@@ -32,7 +32,7 @@ const Services = () => {
                 viewport={{ once: true }}
                 transition= {{ duration: 0.5, delay: 0.3 }} 
                 className="text-pineGreen text-3xl md:text-5xl leading-normal font-primary self-start font-bold text-center mb-4">
-                ¡En <span className="text-darkNight">BOX MOMENT</span> nos encargamos de armar tus cajas!
+                <span className="text-darkNight">¡En BOX MOMENT</span> <br /> nos encargamos de armar tus cajas!
             </motion.h2>
 
             <motion.h3

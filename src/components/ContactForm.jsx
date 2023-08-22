@@ -30,7 +30,7 @@ export default function ContactForm() {
 
   const onSubmit = methods.handleSubmit(data => {
     console.log(data)
-    emailjs.sendForm('service_5c1a51u', 'template_pdgdg8b', form.current, 'Xl00r8D3G-NwN09jC')
+    emailjs.sendForm('service_305tje7', 'template_j0k9pdo', form.current, 'OrBH7jEGLo1-NwFw2')
         .then((result) => {
             console.log(result.text);
             setSuccess(true)
