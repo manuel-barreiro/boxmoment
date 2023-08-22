@@ -15,7 +15,7 @@ function App() {
     <>
     <Navbar />
     <Carousel />
-    <section className="bg-[url('/images/backgrounds/products.svg')] bg-center bg-cover">
+    <section className="bg-[url('/images/backgrounds/starPattern.svg')] bg-center bg-cover">
         <Products />
         <Services />
     </section>
