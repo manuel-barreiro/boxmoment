@@ -8,7 +8,7 @@ import Experiencia from './components/Experiencia'
 import Contact from './components/Contact'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
-import WhatsappButton from './components/WhatsappButton'
+import Buttons from './components/Buttons'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
     <Contact/>
     <ContactForm />
     <Footer/>
-    <WhatsappButton />
+    <Buttons />
     </>
   )
 }

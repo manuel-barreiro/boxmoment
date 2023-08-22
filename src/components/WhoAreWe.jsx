@@ -74,7 +74,7 @@ const WhoAreWe = () => {
                   whileInView="animate"
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.1, 
-                                transition: {duration: 0.1, delay: 0}
+                                transition: {ease: "linear"}
                         }}
                   transition= {{ duration: 0.1, delay: 0.3}}
                   className='w-32 md:w-36 lg:w-40'>
@@ -86,7 +86,7 @@ const WhoAreWe = () => {
                   whileInView="animate"
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.1, 
-                                transition: {duration: 0.1, delay: 0}
+                                transition: {ease: "linear"}
                         }}
                   transition= {{ duration: 0.1, delay: 0.4}}
                   className='w-32 md:w-36 lg:w-40'>
@@ -98,7 +98,7 @@ const WhoAreWe = () => {
                   whileInView="animate"
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.1, 
-                                transition: {duration: 0.1, delay: 0}
+                                transition: {ease: "linear"}
                         }}
                   transition= {{ duration: 0.1, delay: 0.5}}
                   className='w-32 md:w-36 lg:w-40'>
@@ -110,7 +110,7 @@ const WhoAreWe = () => {
                   whileInView="animate"
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.1, 
-                                transition: {duration: 0.1, delay: 0}
+                                transition: {ease: "linear"}
                         }}
                   transition= {{ duration: 0.1, delay: 0.6}}
                   className='w-32 md:w-36 lg:w-40'>
