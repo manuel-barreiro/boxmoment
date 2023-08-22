@@ -77,7 +77,7 @@ const WhoAreWe = () => {
                                 transition: {duration: 0.1, delay: 0}
                         }}
                   transition= {{ duration: 0.1, delay: 0.3}}
-                  className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  className='w-32 md:w-36 lg:w-40'>
                       <img src="/images/clientes/logo-cordis.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </motion.div>
                   <motion.div 
@@ -89,7 +89,7 @@ const WhoAreWe = () => {
                                 transition: {duration: 0.1, delay: 0}
                         }}
                   transition= {{ duration: 0.1, delay: 0.4}}
-                  className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  className='w-32 md:w-36 lg:w-40'>
                       <img src="/images/clientes/logoMaxi.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </motion.div>
                   <motion.div 
@@ -101,7 +101,7 @@ const WhoAreWe = () => {
                                 transition: {duration: 0.1, delay: 0}
                         }}
                   transition= {{ duration: 0.1, delay: 0.5}}
-                  className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  className='w-32 md:w-36 lg:w-40'>
                       <img src="/images/clientes/gaonaLogo.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </motion.div>
                   <motion.div 
@@ -113,7 +113,7 @@ const WhoAreWe = () => {
                                 transition: {duration: 0.1, delay: 0}
                         }}
                   transition= {{ duration: 0.1, delay: 0.6}}
-                  className='w-32 md:w-36 lg:w-40 hover:scale-105 ease-in-out duration-300'>
+                  className='w-32 md:w-36 lg:w-40'>
                       <img src="/images/clientes/logoRIS.png" title='Cliente Confianza Box Moment Cajas Navideñas' alt='Cliente Confianza Box Moment Cajas Navideñas' loading='lazy' width='auto' height='auto' />
                   </motion.div>
               </div>
