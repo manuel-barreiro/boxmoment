@@ -35,16 +35,18 @@ export default function ContactForm() {
             console.log(result.text);
             setSuccess(true)
             methods.reset()
-            setTimeout(() => {
-                setSuccess(false);
-              }, "20000");
+            // Para que se vaya el mensaje
+            // setTimeout(() => {
+            //     setSuccess(false);
+            //   }, "20000");
         }, (error) => {
             console.log(error.text);
             setFailed(true)
             methods.reset()
-            setTimeout(() => {
-                setFailed(false);
-              }, "20000");
+            // Para que se vaya el mensaje
+            // setTimeout(() => {
+            //     setFailed(false);
+            //   }, "20000");
         });
   })
 
