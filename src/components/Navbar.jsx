@@ -55,11 +55,15 @@ export default function Navbar() {
             </motion.div>
             
             {/* Menu Icon & Close Icon */}
-            <div onClick={handleMenu} className='cursor-pointer lg:hidden'>
+            <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition= {{ duration: 1 }}
+            onClick={handleMenu} className='cursor-pointer lg:hidden'>
                 {
                     open ? <RiCloseFill size={40}/> : <RiMenu3Fill size={40} />
                 }
-            </div>
+            </motion.div>
 
             {/* link items */}
             <ul className={`lg:hidden pb-8 absolute bg-white z-[-10] left-0 w-full pl-10 transition-all duration-500 ease-in-out ${open ? 'top-32' : 'top-[-690px]'} shadow-lg`}>
