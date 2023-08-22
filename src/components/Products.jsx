@@ -14,7 +14,7 @@ const Products = () => {
 
         <div className="flex justify-evenly gap-10 flex-wrap">
 
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-xmasRed w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Roja</p>
@@ -40,7 +40,7 @@ const Products = () => {
 
           </div>
 
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-pineGreen w-28 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Verde</p>
@@ -63,7 +63,7 @@ const Products = () => {
 
           </div>
           
-          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center w-80">
+          <div className="h-auto relative p-6 rounded-3xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center hover:scale-105 ease-in-out duration-300 w-80">
 
             <div className="bg-[#ffc51a] w-44 p-1 rounded-full text-center absolute top-4 left-0">
               <p className="text-white font-extrabold font-primary mt-1">Box Personalizada</p>

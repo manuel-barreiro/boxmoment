@@ -35,7 +35,7 @@ const Services = () => {
                 ¡En <span className="text-darkNight">BOX MOMENT</span> nos encargamos de armar tus cajas!
             </motion.h2>
 
-            <motion.h4
+            <motion.h3
                 variants={h4AnimationVariants}
                 initial="initial"
                 whileInView="animate"
@@ -43,7 +43,7 @@ const Services = () => {
                 transition= {{ duration: 0.5, delay: 0.5 }} 
                 className="text-md  md:text-xl leading-normal text-darkNight font-secondary font-bold text-center">
                     En 3 simples pasos tenés tus cajas listas:
-            </motion.h4>
+            </motion.h3>
         </div>
 
         <div className="container px-5 pt-10 mx-auto flex flex-wrap">

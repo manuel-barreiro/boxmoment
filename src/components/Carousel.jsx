@@ -3,7 +3,7 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function Carousel({
   autoSlide = true,
-  autoSlideInterval = 8000,
+  autoSlideInterval = 10000,
 }) {
  
   const slides = (window.innerWidth > 450 ) ? ["/images/slides/slide1.png/", "/images/slides/slide2.png/", "/images/slides/slide3.png/", "/images/slides/slide4.png/"] : ["/images/slides/slide1Mobile.png/", "/images/slides/slide2Mobile.png/", "/images/slides/slide3Mobile.png/", "/images/slides/slide4Mobile.png/" ]
@@ -27,7 +27,7 @@ export default function Carousel({
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
          {slides.map((img) => (
-          <img key={img} src={img} className="object-contain h-full" alt="" />
+          <img key={img} src={img} className="object-contain h-full" title='Box Moment Cajas Navideñas' alt='Box Moment Cajas Navideñas' width='auto' height='auto' />
         ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
