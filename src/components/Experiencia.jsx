@@ -22,34 +22,32 @@ const Experiencia = () => {
                     <div className="flex flex-col w-full xl:w-[50%]">
 
                         <div className="p-6 relative h-36 md:h-32 rounded shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] w-[60%] self-start -mb-5 bg-gradient-to-tr from-slate-50 to-gray-100 hover:scale-105 ease-in-out duration-300">
-                            <BsBoxFill size={40} className='absolute -top-5 -left-6 text-[#c281ff]' />
+                            
                             <p className='font-bold text-4xl md:text-5xl'>
                                 {counterOn &&
                                     <CountUp start={0} prefix='+' end={45400} separator='.' duration={4} delay={0}/>
                                 }
                             </p>
-                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg'>Cajas producidas</p>
+                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg flex items-center justify-start gap-3'><BsBoxFill size={30} className='text-[#c281ff]' /> <span>Cajas producidas</span></p>
                         </div>
 
 
                         <div className="p-6 relative h-36 md:h-32 rounded shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] w-[70%] bg-gradient-to-tr from-slate-50 to-gray-100 hover:scale-105 ease-in-out duration-300 self-end z-30">
-                            <RiRecycleFill size={40} className='absolute -top-6 -right-4 text-[#c281ff]' />
                             <p className='font-bold text-4xl md:text-5xl'>
                                 {counterOn &&
                                     <CountUp start={0} prefix='+' end={15000} separator='.' duration={4} delay={0}/>
                                 }
                             </p>
-                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg'>Kg cartón reciclado</p>
+                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg flex items-center justify-start gap-3'><RiRecycleFill size={30} className='text-[#c281ff]' /> <span>Kg cartón reciclado</span></p>                        
                         </div>
 
                         <div className="p-6 relative h-36 md:h-32 rounded shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] w-[60%] -mt-5 bg-gradient-to-tr from-slate-50 to-gray-100 hover:scale-105 ease-in-out duration-300 self-start">
-                            <MdVerified size={40} className='absolute -bottom-5 -right-5 text-[#c281ff]' />
                             <p className='font-bold text-4xl md:text-5xl'>
                                 {counterOn &&
                                     <CountUp start={0} prefix='+' end={250} duration={4} delay={0}/>
                                 }
                             </p>
-                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg'>Clientes</p>
+                            <p className='text-slate-500 border-l-4 border-primaryOrange pl-2 ml-4 mt-2 text-sm md:text-lg flex items-center justify-start gap-3'><MdVerified size={30} className='text-[#c281ff]' /> <span>Clientes</span></p>                        
                         </div>
 
                     </div>
