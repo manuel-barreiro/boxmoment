@@ -15,11 +15,11 @@ const Experiencia = () => {
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
         <section className="h-auto py-20 md:py-28 w-full bg-[url('/images/backgrounds/experiencia.svg')] bg-center bg-cover font-primary">
 
-            <div className="w-full h-full container px-8 lg:px-32 mx-auto">
+            <div className="w-full h-full container px-8 xl:px-32 mx-auto">
 
-                <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-14 ">
+                <div className="w-full h-full flex flex-col xl:flex-row justify-center items-center gap-14 ">
                 
-                    <div className="flex flex-col w-full lg:w-[50%]">
+                    <div className="flex flex-col w-full xl:w-[50%]">
 
                         <div className="p-6 relative h-36 md:h-32 rounded shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] w-[60%] self-start -mb-5 bg-gradient-to-tr from-slate-50 to-gray-100 hover:scale-105 ease-in-out duration-300">
                             <BsBoxFill size={40} className='absolute -top-5 -left-6 text-[#c281ff]' />

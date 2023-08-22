@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhoAreWe = () => {
   return (
-    <section name='quienesSomos' className="w-full h-full bg-[#ebebeb] py-20 md:py-28 px-8 md:px-32 font-primary flex flex-col gap-6">
+    <section name='quienesSomos' className="w-full h-full bg-[#f6f6f6] py-20 md:py-28 px-8 md:px-32 font-primary flex flex-col gap-6">
 
       <div className="flex flex-col xl:flex-row justify-evenly gap-4">
           <div className="xl:basis-1/2 h-auto xl:h-80 flex flex-col gap-5 items-start p-6">
