@@ -27,7 +27,7 @@ const WhoAreWe = () => {
             </div>
 
             <div className='xl:basis-1/2 h-auto rounded-3xl xl:h-80'>
-              <video controls poster='/poster.jpg' loading="lazy" className="object-cover object-center w-full h-full rounded-lg" src="/videoCajas.mp4" title="Somos Box Moment, hacemos las mejores cajas navideñas" alt="Somos Box Moment" />
+              <video controls poster='/poster.jpg' loading="lazy" className="object-cover object-center w-full h-full rounded-lg" src="/VideoCajas.mp4" title="Somos Box Moment, hacemos las mejores cajas navideñas" alt="Somos Box Moment" />
             </div>
 
           </div>
