@@ -1,7 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import {useTypewriter, Cursor} from 'react-simple-typewriter';
-
 
 const WhoAreWe = () => {
 
