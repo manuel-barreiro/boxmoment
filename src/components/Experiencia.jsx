@@ -54,7 +54,7 @@ const Experiencia = () => {
 
                     <div className="lg:w-[50%] flex flex-col gap-5 items-start bg-darkNight shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] p-6 rounded-xl hover:scale-105 duration-300 ease-in-out">
                         <h4 className="text-3xl md:text-5xl text-[#85e396] font-bold">Nos apasiona lo que hacemos.</h4>
-                        <p className="text-justify text-[#85e396]">Es por eso que nos tomamos muy seriamente nuestro trabajo, buscando siempre alcanzar la satisfacción máxima de los clientes que confían en nosotros.</p>
+                        <p className="text-justify font-secondary font-medium text-[#85e396]">Es por eso que nos tomamos muy seriamente nuestro trabajo, buscando siempre alcanzar la satisfacción máxima de los clientes que confían en nosotros.</p>
                         <button className='px-4 py-2 rounded-md text-white border hover:bg-white hover:text-pineGreen duration-300 '><a href="https://wa.me/+5491162801006" target='_blank'>Contactanos</a></button>
                     </div>
 

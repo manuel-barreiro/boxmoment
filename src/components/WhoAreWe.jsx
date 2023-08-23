@@ -5,14 +5,6 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter';
 
 const WhoAreWe = () => {
 
-  //TypeWriter Effect   
-  const [text] = useTypewriter({
-    words: ['Box Moment.', 'dedicación.', 'calidad.', 'servicio.'],
-    loop: {},
-    typeSpeed: 120,
-    deleteSpeed: 140
-  })
-
   const logoAnimationVariants = {
     initial: { y: 15, opacity: 0 },
     animate:{ y: 0, opacity: 1 },      
@@ -31,19 +23,19 @@ const WhoAreWe = () => {
         <div className='flex flex-col xl:flex-row justify-evenly items-center gap-8 '>
 
             <div className="xl:basis-1/2 h-auto flex flex-col gap-5 items-start ">
-                  <h3 className="text-3xl md:text-4xl font-extrabold text-center">Somos {text}<Cursor/></h3>
-                  <p className="text-justify font-secondary font-medium leading-relaxed">Box Moment lleva 4 años de trayectoria en el mercado, brindando la mayor <span className="font-extrabold">comodidad</span> y <span className="font-extrabold">servicio</span> a nuestros clientes en épocas festivas. </p>
-                  <p className="text-justify font-secondary font-medium leading-relaxed">El respaldo de <span className="font-extrabold">empresas de primera línea</span> que eligen nuestros productos son el sello de <span className="font-extrabold">garantía</span> y <span className="font-extrabold">confianza</span> que nos permite llegar a más consumidores de una forma más rápida y segura sin dejar de brindar una <span className="font-extrabold">atención personalizada</span> a cada uno de nuestros clientes.</p>
+                  <h3 className="text-4xl md:text-5xl font-extrabold text-start">Somos <br className='lg:hidden' /> Box Moment</h3>
+                  <p className="text-justify font-secondary font-medium">Box Moment lleva 4 años de trayectoria en el mercado, brindando la mayor <span className="font-extrabold">comodidad</span> y <span className="font-extrabold">servicio</span> a nuestros clientes en épocas festivas. </p>
+                  <p className="text-justify font-secondary font-medium">El respaldo de <span className="font-extrabold">empresas de primera línea</span> que eligen nuestros productos son el sello de <span className="font-extrabold">garantía</span> y <span className="font-extrabold">confianza</span> que nos permite llegar a más consumidores de una forma más rápida y segura sin dejar de brindar una <span className="font-extrabold">atención personalizada</span> a cada uno de nuestros clientes.</p>
             </div>
 
             <div className='xl:basis-1/2 h-auto rounded-3xl xl:h-80'>
-              <video controls poster='/poster.png' loading="lazy" className="object-cover object-center w-full h-full rounded-lg" src="/VideoCajas.mp4" title="Somos Box Moment, hacemos las mejores cajas navideñas" alt="Somos Box Moment" />
+              <video controls poster='/poster.jpg' loading="lazy" className="object-cover object-center w-full h-full rounded-lg" src="/videoCajas.mp4" title="Somos Box Moment, hacemos las mejores cajas navideñas" alt="Somos Box Moment" />
             </div>
 
           </div>
 
           <div>
-            <p className="text-justify font-secondary font-medium leading-relaxed">
+            <p className="text-justify font-secondary font-medium">
               Nuestras cajas navideñas son una <span className="font-extrabold">excelente</span> opción para los regalos de fin de año que las empresas otorgan a sus colaboradores durante la época festiva. También llegamos a todo consumidor que quiera disfrutar de una mesa dulce acompañada de los<span className="font-extrabold"> mejores productos</span> durante las fiestas, haciendo de ellas noches más ricas.
               </p>
           </div>
