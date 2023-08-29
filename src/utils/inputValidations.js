@@ -28,6 +28,28 @@ export const name_validation = {
   },
 }
 
+export const apellido_validation = {
+  name: 'apellido',
+  label: 'Apellido',
+  type: 'text',
+  id: 'apellido',
+  placeholder: '',
+  validation: {
+    required: {
+      value: true,
+      message: 'Requerido',
+    },
+    minLength: {
+      value: 3,
+      message: 'Mínimo 3 caracteres',
+    },
+    maxLength: {
+      value: 40,
+      message: 'Máximo 40 caracteres',
+    },
+  },
+}
+
 export const consulta_validation = {
   name: 'consulta',
   label: 'Consulta',
@@ -109,6 +131,28 @@ export const email_validation = {
       value:
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       message: 'Ingrese e-mail válido',
+    },
+  },
+}
+
+export const cp_validation = {
+  name: 'codigoPostal',
+  label: 'Código Postal',
+  type: 'text',
+  id: 'codigoPostal',
+  placeholder: '',
+  validation: {
+    required: {
+      value: true,
+      message: 'Requerido',
+    },
+    maxLength: {
+      value: 10,
+      message: 'Máximo 20 caracteres',
+    },
+    minLength: {
+      value: 2,
+      message: 'Mínimo 3 caracteres',
     },
   },
 }

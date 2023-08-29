@@ -10,10 +10,12 @@ import { Input } from './Input'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
   name_validation,
+  apellido_validation,
   consulta_validation,
   email_validation,
   empresa_validation,
   cell_validation,
+  cp_validation
 } from '../utils/inputValidations'
 import { useState, useRef } from 'react'
 import { GrMail } from 'react-icons/gr'
@@ -70,9 +72,11 @@ export default function ContactForm() {
                     <div className="lg:w-1/2 md:w-2/3 mx-auto">
                         <div className='flex flex-wrap -m-2'>
                             <Input {...name_validation} />
+                            <Input {...apellido_validation} />
                             <Input {...email_validation} />
-                            <Input {...empresa_validation} />
                             <Input {...cell_validation} />
+                            <Input {...empresa_validation} />
+                            <Input {...cp_validation} />                    
                             <Input {...consulta_validation} className="p-2 w-full" />
                         </div>
                         <div className="mt-5">

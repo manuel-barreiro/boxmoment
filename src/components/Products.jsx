@@ -75,10 +75,11 @@ const Products = () => {
 
             <h4 className="font-primary font-light underline decoration-1 decoration-wavy underline-offset-2 mb-2">¡Armala como más te guste!</h4>
 
-            <ul className="font-secondary font-semibold text-xs flex flex-col items-start gap-4">
+            <ul className="font-secondary font-semibold text-xs flex flex-col items-start gap-2">
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Podés combinar cualquiera de los productos de las box roja y verde.</p></li>
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>¡Contactate con nosotros para que te ayudemos a armar tu box ideal!</p></li>
+              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Consultar por límite de peso y número máximo de artículos para personalizar tu box.</p></li>
             </ul>
 
             {/* <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button> */}
