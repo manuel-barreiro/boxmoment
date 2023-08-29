@@ -79,7 +79,7 @@ const Products = () => {
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Elegí los productos de tu preferencia para armar tu box.</p></li>
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Podés combinar cualquiera de los productos de las box roja y verde.</p></li>
               <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>¡Contactate con nosotros para que te ayudemos a armar tu box ideal!</p></li>
-              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Consultar por límite de peso y número máximo de artículos para personalizar tu box.</p></li>
+              <li><p className="flex items-center gap-2"><TbChristmasTree className="text-[#ffc51a] w-6"/>Consultar por límite de peso y número máximo de artículos permitidos.</p></li>
             </ul>
 
             {/* <button className="mt-4 rounded-xl bg-[#ffc51a] px-3 py-1 font-primary text-white hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ease-in-out duration-300">Ver opciones</button> */}
