@@ -50,6 +50,50 @@ export const apellido_validation = {
   },
 }
 
+export const localidad_validation = {
+  name: 'localidad',
+  label: 'Localidad',
+  type: 'text',
+  id: 'localidad',
+  placeholder: '',
+  validation: {
+    required: {
+      value: true,
+      message: 'Requerido',
+    },
+    minLength: {
+      value: 3,
+      message: 'Mínimo 3 caracteres',
+    },
+    maxLength: {
+      value: 40,
+      message: 'Máximo 40 caracteres',
+    },
+  },
+}
+
+export const direccion_validation = {
+  name: 'direccion',
+  label: 'Dirección',
+  type: 'text',
+  id: 'direccion',
+  placeholder: '',
+  validation: {
+    required: {
+      value: true,
+      message: 'Requerido',
+    },
+    minLength: {
+      value: 3,
+      message: 'Mínimo 5 caracteres',
+    },
+    maxLength: {
+      value: 40,
+      message: 'Máximo 60 caracteres',
+    },
+  },
+}
+
 export const consulta_validation = {
   name: 'consulta',
   label: 'Consulta',

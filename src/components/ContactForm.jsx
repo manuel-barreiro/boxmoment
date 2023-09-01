@@ -15,6 +15,8 @@ import {
   email_validation,
   empresa_validation,
   cell_validation,
+  localidad_validation,
+  direccion_validation,
   cp_validation
 } from '../utils/inputValidations'
 import { useState, useRef } from 'react'
@@ -71,11 +73,12 @@ export default function ContactForm() {
                 >
                     <div className="lg:w-1/2 md:w-2/3 mx-auto">
                         <div className='flex flex-wrap -m-2'>
-                            <Input {...name_validation} />
-                            <Input {...apellido_validation} />
+                            <Input {...name_validation} className="w-full" />
                             <Input {...email_validation} />
                             <Input {...cell_validation} />
                             <Input {...empresa_validation} />
+                            <Input {...localidad_validation} />
+                            <Input {...direccion_validation} />
                             <Input {...cp_validation} />                    
                             <Input {...consulta_validation} className="p-2 w-full" />
                         </div>
